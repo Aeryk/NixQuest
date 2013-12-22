@@ -16,6 +16,6 @@ class Event(object):
     def printBody():#
         with open("bodyFile", "r") as file:
             print file.read()
-
+    #I've no idea how to do this thing, but after the selection it should definitely type a dozen or two line breaks so as to clear the screen.
     def chooseAnswer():
         pass
