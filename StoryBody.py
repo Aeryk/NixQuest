@@ -1,5 +1,5 @@
 """
-    Okay, newest plan. :p Changing this to
+    This'll be the main storyboard.
 """
 #clumsy import attempts. EXPERIMENTAL!
 from Events import Event
@@ -22,9 +22,3 @@ def pause():
 
 pause()
 print "Good job. You typed fish." #This is just a silly placeholder.
-
-#Begin code for testing import features. We'll later replace event1 with Prelude.
-event1List = ["test","placeholder"]
-
-event1 = Event("Event1.txt",event1List)
-event1.printBody()

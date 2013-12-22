@@ -2,3 +2,22 @@ OKAY! Here's the deal:
 
 I realized as I was trying to write an object that would retrieve an object that I was, in essence, trying to re-invent Lists and Dictionaries. So... to hell with that. The new plan is to use two lists: Choices and Stories. The Stories list will have all 100 choices you can make. Each corresponding number in "Choices" will have your choices dialogue. I think.
 I'm trying to figure out if it's possible to put code snippets into a list. Definitions, for example. I'm off to test that. We might have to use a dictionary. Not sure.
+
+
+
+Okay, it's half past noon. I have a new idea. While you're reading this, open "plan.jpg". It'll be kinda a pain in the rear compared to earlier plans, but it turns out Python doesnt do what I wanted it to. And either way, we need rewrite the whole thing in C#. So... I guess this is actually a really good time to start over. :p
+
+Okay. So in C, lists are called "arrays" and dictionarys are called "associative arrays." Because a list is an array of items, all fanned out, and in dictionaries we "associate" a key with the value.
+Normally I'd just call 'em dicts and lists because it's what we've used, but since the long-term plan is to do C full-time, I figure we should get used to calling stuff by the right name. So! Here we go!
+
+Oh, PS, arrays have square braces like this: [], and associative arrays have curly braces, like this: {}. That should be a little familiar. :)
+
+So, we have a [bigarray]. [bigarray] will have an index like 0, 1, 2, etc., just like lists. But inside it, we're going to store an associative array we'll call {assArray}. {assArray} will look like this:
+
+{ story #1 : choices
+  story #2 : choices
+  etc. etc.
+  story #100 : choices}
+So, that works okay. You call [bigarray] at index 10 and you get {story #11 : choices for story #11} BUT! The choices have to be returned somehow. We'll store the choices in another associative array {choices}. Dunno how we'll do that exactly, right now, but that's okay.
+
+Beyond that, we'll just need a function that goes through the lists. I'm thinking a While loop, but I'm fuzzy on the details. Also, don't worry. We won't actually call them BigArray and AssArray and so on. That'd be nuts. :P
