@@ -12,10 +12,11 @@ class Event(object):
         self.eventTextFile = eventTextFile
         self.answerList = answerList
     
-
-    def printBody():#
-        with open("bodyFile", "r") as file:
+    #HOLY COW THIS WORKS. Use this format: event1 = Event("Event1.txt",event1List)
+    #opens file that contains the story, prints it.
+    def printBody(self):
+        with open(self.eventTextFile, "r") as file:
             print file.read()
     #I've no idea how to do this thing, but after the selection it should definitely type a dozen or two line breaks so as to clear the screen.
-    def chooseAnswer():
+    def chooseAnswer(self):
         pass

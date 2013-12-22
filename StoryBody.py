@@ -1,6 +1,9 @@
 """
-    New plan. Here's how this'll run: We'll define a class: Choice. Instances of choice will be recorded in "story.py". Then we'll call those instances whenever we need one. Not sure that makes sense. It's 3AM. I'll make it better after sleep.
+    Okay, newest plan. :p Changing this to
 """
+#clumsy import attempts. EXPERIMENTAL!
+from Events import Event
+
 #open introductory text READ ONLY mode
 introText = open("Intro.txt", "r")
 print introText.read()
@@ -19,3 +22,9 @@ def pause():
 
 pause()
 print "Good job. You typed fish." #This is just a silly placeholder.
+
+#Begin code for testing import features. We'll later replace event1 with Prelude.
+event1List = ["test","placeholder"]
+
+event1 = Event("Event1.txt",event1List)
+event1.printBody()
