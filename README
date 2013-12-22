@@ -1,0 +1,4 @@
+OKAY! Here's the deal:
+
+I realized as I was trying to write an object that would retrieve an object that I was, in essence, trying to re-invent Lists and Dictionaries. So... to hell with that. The new plan is to use two lists: Choices and Stories. The Stories list will have all 100 choices you can make. Each corresponding number in "Choices" will have your choices dialogue. I think.
+I'm trying to figure out if it's possible to put code snippets into a list. Definitions, for example. I'm off to test that. We might have to use a dictionary. Not sure.
