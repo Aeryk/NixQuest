@@ -6,15 +6,16 @@ introText = open("Intro.txt", "r")
 print introText.read()
 introText.close() #close introductory text
 
+
 #Break for user to read.
 def pause():
     placeholder = raw_input("Type 'fish' when you're ready to continue.\n(>")
+    #if user typed fish, print a large space before presenting the prelude, so as to make things easier to read.
     if placeholder.lower() == "fish":
-        print "Great! Let's move on."
+        print "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     else:
         print "Sorry, what?"
         pause()
+
 pause()
-#print a large space before presenting the next test, so as to make things easier to read:
-print "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-print "Passed 'pause' successfully." #This is just a silly placeholder.
+print "Good job. You typed fish." #This is just a silly placeholder.
