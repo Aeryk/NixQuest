@@ -1,0 +1,5 @@
+1) Figure out how to do this.
+    a) Figure out classes, basic inputs/strings/integers, arrays, and file I/O in C#
+    b) Decide whether to do it in the array-holds-instances (AHI) method or whether to do it in the Instances-in-a-row (IIAR, pronounced "Yarr") method.
+        i)Figure out how to do AHI or IIAR.
+2) Do it.
