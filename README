@@ -1,3 +1,16 @@
+Aeryk here:”UPDATE DEC. 24 13: Okay, new plan ((again)maybe). See, an array (you remember lists?) in C# can store *objects*. And not, like, types of objects/definitions of objects. It can store *INSTANCES*.
+
+So we could simplify our lists and make them prettier by having a class that takes the text of your story as input, takes one of several choices, and takes an array.
+
+You’d feed it the array that it’s a part of. Then it would iterate through the story at array[0], and start the story.
+
+That would let us still keep the text files for the story, and keep our main editor code a LOT simpler.
+
+That still doesn’t solve inventory issues, but what do you think?”
+
+
+
+
 OKAY! Here's the deal:
 
 I realized as I was trying to write an object that would retrieve an object that I was, in essence, trying to re-invent Lists and Dictionaries. So... to hell with that. The new plan is to use two lists: Choices and Stories. The Stories list will have all 100 choices you can make. Each corresponding number in "Choices" will have your choices dialogue. I think.
