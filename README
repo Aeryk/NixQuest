@@ -1,3 +1,10 @@
+Aeryk here again, Dec. 25
+RIGHT WELL SCREW THAT THEN!
+Talked over my idea with a programmer with more life experience than he knows what to do with, and I spent the whole time feeling like a child who’d just built his first lego set must feel when he watches people build those statue of liberty sets.
+
+TL;DR THIS IS SHELVED until I finish the Stanford iOS course and remember how to be a grown-up.
+
+
 Aeryk here:”UPDATE DEC. 24 13: Okay, new plan ((again)maybe). See, an array (you remember lists?) in C# can store *objects*. And not, like, types of objects/definitions of objects. It can store *INSTANCES*.
 
 So we could simplify our lists and make them prettier by having a class that takes the text of your story as input, takes one of several choices, and takes an array.
