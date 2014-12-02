@@ -1,5 +1,3 @@
-1) Figure out how to do this.
-    a) Figure out classes, basic inputs/strings/integers, arrays, and file I/O in C#
-    b) Decide whether to do it in the array-holds-instances (AHI) method or whether to do it in the Instances-in-a-row (IIAR, pronounced "Yarr") method.
-        i)Figure out how to do AHI or IIAR.
-2) Do it.
+1) Front-end design - how will text display? How will it work? What buttons go where?
+2) Back-end design - Array containing all the stories, another containing selections available to each story (selections also arrays?), game logic class.
+3) POLISH!
