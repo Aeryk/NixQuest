@@ -1,14 +1,15 @@
 TIER 1 TO-DO:
 -Basic Layout
 -Basic Backend
+-Inventory backend
 
 TIER 2 TO-DO:
 -Inventory Screen
--Inventory backend
 -Button Art
 -Dress up the stories
 
 TIER 3 TO-DO:
+-Individual scene art
 -Character Art
 -Item Art
 -Animation Transitions
