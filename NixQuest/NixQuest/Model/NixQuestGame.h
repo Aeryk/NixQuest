@@ -11,5 +11,4 @@
 @interface NixQuestGame : NSObject
 
 @property (nonatomic)NSArray *events;
-
 @end
