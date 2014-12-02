@@ -1,3 +1,14 @@
-1) Front-end design - how will text display? How will it work? What buttons go where?
-2) Back-end design - Array containing all the stories, another containing selections available to each story (selections also arrays?), game logic class.
-3) POLISH!
+TIER 1 TO-DO:
+-Basic Layout
+-Basic Backend
+
+TIER 2 TO-DO:
+-Inventory Screen
+-Inventory backend
+-Button Art
+-Dress up the stories
+
+TIER 3 TO-DO:
+-Character Art
+-Item Art
+-Animation Transitions
