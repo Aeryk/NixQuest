@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68C4D9C21A2E6F3200F206E1 /* NixQuestGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C4D9C11A2E6F3200F206E1 /* NixQuestGame.m */; };
 		68F2E8361A2E5F7400D02114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2E8351A2E5F7400D02114 /* main.m */; };
 		68F2E8391A2E5F7400D02114 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2E8381A2E5F7400D02114 /* AppDelegate.m */; };
 		68F2E83C1A2E5F7400D02114 /* NixQuest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68F2E83A1A2E5F7400D02114 /* NixQuest.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68C4D9C01A2E6F3200F206E1 /* NixQuestGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NixQuestGame.h; path = Model/NixQuestGame.h; sourceTree = "<group>"; };
+		68C4D9C11A2E6F3200F206E1 /* NixQuestGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NixQuestGame.m; path = Model/NixQuestGame.m; sourceTree = "<group>"; };
 		68F2E8301A2E5F7400D02114 /* NixQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NixQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F2E8341A2E5F7400D02114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68F2E8351A2E5F7400D02114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68C4D9C31A2E6F3900F206E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68C4D9C01A2E6F3200F206E1 /* NixQuestGame.h */,
+				68C4D9C11A2E6F3200F206E1 /* NixQuestGame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		68F2E8271A2E5F7300D02114 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 				68F2E8431A2E5F7400D02114 /* Images.xcassets */,
 				68F2E8451A2E5F7400D02114 /* LaunchScreen.xib */,
 				68F2E83A1A2E5F7400D02114 /* NixQuest.xcdatamodeld */,
+				68C4D9C31A2E6F3900F206E1 /* Model */,
 				68F2E8331A2E5F7400D02114 /* Supporting Files */,
 			);
 			path = NixQuest;
@@ -223,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68F2E83C1A2E5F7400D02114 /* NixQuest.xcdatamodeld in Sources */,
+				68C4D9C21A2E6F3200F206E1 /* NixQuestGame.m in Sources */,
 				68F2E8391A2E5F7400D02114 /* AppDelegate.m in Sources */,
 				68F2E83F1A2E5F7400D02114 /* ViewController.m in Sources */,
 				68F2E8361A2E5F7400D02114 /* main.m in Sources */,

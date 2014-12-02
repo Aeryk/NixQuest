@@ -7,14 +7,33 @@
 //
 
 #import "ViewController.h"
+#import "NixQuestGame.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) IBOutlet UILabel *eventDisplay;
+@property (strong, nonatomic) NixQuestGame *game;
 @end
 
 @implementation ViewController
 
+-(UILabel *)eventDisplay {
+    if (!_eventDisplay) _eventDisplay = [[UILabel alloc]init];
+    return _eventDisplay;
+}
+-(NixQuestGame *)game {
+    if (!_game) _game = [[NixQuestGame alloc]init];
+    return _game;
+}
+
+- (IBAction)buttonOneTest {
+    self.eventDisplay.text = [self.game.events objectAtIndex:(0)];
+}
+
 //Hey, Alex. Throw a comment under this when you see it. ;)
 //Done! Comment added!
+
+
+
+
 
 @end

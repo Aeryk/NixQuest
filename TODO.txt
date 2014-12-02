@@ -9,6 +9,9 @@ TIER 2 TO-DO:
 -Dress up the stories
 
 TIER 3 TO-DO:
+-App Icon
+-Launch Screen
+-In-app dice roll for beginning
 -Individual scene art
 -Character Art
 -Item Art
