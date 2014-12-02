@@ -1,6 +1,0 @@
-EVENT #1
-Moving from shadow to shadow down the wide Boulevard of the Muses, you feel very much like the intrepid adventurer hurrying to rescue his beloved lady. Y o u are so caught up in this delightful little daydream that you don’t notice the six Watchmen following your erratic shadow-to- shadow progression down the street till you go one shadow too many and find yourself caught in the glare of their lanterns.
-
-If you are carrying a halberd or five-pronged fish spear, Go to 50
-
-If you aren’t carrying either of these, Go to 30
