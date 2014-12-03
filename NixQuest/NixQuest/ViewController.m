@@ -25,14 +25,6 @@
     return _game;
 }
 
-- (IBAction)buttonOneTest {
-    self.eventDisplay.text = [self.game.events lastObject];
-}
-
-- (IBAction)buttonTwoTest {
-    self.eventDisplay.text = [self.game.alexArray firstObject];
-}
-
 
 
 
