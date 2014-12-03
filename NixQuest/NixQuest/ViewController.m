@@ -26,11 +26,12 @@
 }
 
 - (IBAction)buttonOneTest {
-    self.eventDisplay.text = [self.game.events objectAtIndex:(0)];
+    self.eventDisplay.text = [self.game.events lastObject];
 }
 
-//Hey, Alex. Throw a comment under this when you see it. ;)
-//Done! Comment added!
+- (IBAction)buttonTwoTest {
+    self.eventDisplay.text = [self.game.alexArray firstObject];
+}
 
 
 

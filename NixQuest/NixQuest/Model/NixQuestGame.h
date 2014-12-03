@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface NixQuestGame : NSObject
-
-@property (nonatomic)NSArray *events;
+@property (nonatomic, strong)NSArray *alexArray;
+@property (nonatomic, strong)NSArray *events;
 @end
