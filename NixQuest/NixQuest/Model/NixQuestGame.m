@@ -7,8 +7,10 @@
 //
 //  This will contain the game logic as well as the arrays containing choices and story events.
 //
-//86 requires special attention -- CORRECT IS 20, but any wrong answer leads to 73, maaaaybe?
-//Double check #11. 79, 12, F? Perhaps a Jack Ryan check?
+//  86 requires special attention -- CORRECT IS 20, but any wrong answer leads to 73, maaaaybe?
+//  Naw, not 73. Death. Leads to death.
+//  Or perhaps to 1?
+//  Double check #11. 79, 12, F? Perhaps a Jack Ryan check?
 //
 
 #import "NixQuestGame.h"
