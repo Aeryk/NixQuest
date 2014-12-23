@@ -16,6 +16,7 @@
 		68F2E8441A2E5F7400D02114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F2E8431A2E5F7400D02114 /* Images.xcassets */; };
 		68F2E8471A2E5F7400D02114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F2E8451A2E5F7400D02114 /* LaunchScreen.xib */; };
 		68F2E8531A2E5F7400D02114 /* NixQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2E8521A2E5F7400D02114 /* NixQuestTests.m */; };
+		FADECCA71A4948A000794235 /* inventoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FADECCA61A4948A000794235 /* inventoryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		68F2E84C1A2E5F7400D02114 /* NixQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NixQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F2E8511A2E5F7400D02114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68F2E8521A2E5F7400D02114 /* NixQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NixQuestTests.m; sourceTree = "<group>"; };
+		FADECCA51A4948A000794235 /* inventoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inventoryManager.h; path = Model/inventoryManager.h; sourceTree = "<group>"; };
+		FADECCA61A4948A000794235 /* inventoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inventoryManager.m; path = Model/inventoryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			children = (
 				68C4D9C01A2E6F3200F206E1 /* NixQuestGame.h */,
 				68C4D9C11A2E6F3200F206E1 /* NixQuestGame.m */,
+				FADECCA51A4948A000794235 /* inventoryManager.h */,
+				FADECCA61A4948A000794235 /* inventoryManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADECCA71A4948A000794235 /* inventoryManager.m in Sources */,
 				68F2E83C1A2E5F7400D02114 /* NixQuest.xcdatamodeld in Sources */,
 				68C4D9C21A2E6F3200F206E1 /* NixQuestGame.m in Sources */,
 				68F2E8391A2E5F7400D02114 /* AppDelegate.m in Sources */,
