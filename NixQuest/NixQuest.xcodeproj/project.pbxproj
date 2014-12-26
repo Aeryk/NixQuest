@@ -18,6 +18,7 @@
 		68F2E8531A2E5F7400D02114 /* NixQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2E8521A2E5F7400D02114 /* NixQuestTests.m */; };
 		FA6E8CD51A4CAC2B00CBA698 /* Pistol.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6E8CD41A4CAC2B00CBA698 /* Pistol.m */; };
 		FADECCA71A4948A000794235 /* inventoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FADECCA61A4948A000794235 /* inventoryManager.m */; };
+		FAFAF9F71A4CC16B00F9B2F5 /* Inventory Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFAF9F61A4CC16B00F9B2F5 /* Inventory Dictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FA6E8CD41A4CAC2B00CBA698 /* Pistol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pistol.m; path = Model/Pistol.m; sourceTree = "<group>"; };
 		FADECCA51A4948A000794235 /* inventoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inventoryManager.h; path = Model/inventoryManager.h; sourceTree = "<group>"; };
 		FADECCA61A4948A000794235 /* inventoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inventoryManager.m; path = Model/inventoryManager.m; sourceTree = "<group>"; };
+		FAFAF9F51A4CC16B00F9B2F5 /* Inventory Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Inventory Dictionary.h"; path = "Model/Inventory Dictionary.h"; sourceTree = "<group>"; };
+		FAFAF9F61A4CC16B00F9B2F5 /* Inventory Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Inventory Dictionary.m"; path = "Model/Inventory Dictionary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				FADECCA61A4948A000794235 /* inventoryManager.m */,
 				FA6E8CD31A4CAC2B00CBA698 /* Pistol.h */,
 				FA6E8CD41A4CAC2B00CBA698 /* Pistol.m */,
+				FAFAF9F51A4CC16B00F9B2F5 /* Inventory Dictionary.h */,
+				FAFAF9F61A4CC16B00F9B2F5 /* Inventory Dictionary.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 				68F2E83C1A2E5F7400D02114 /* NixQuest.xcdatamodeld in Sources */,
 				68C4D9C21A2E6F3200F206E1 /* NixQuestGame.m in Sources */,
 				68F2E8391A2E5F7400D02114 /* AppDelegate.m in Sources */,
+				FAFAF9F71A4CC16B00F9B2F5 /* Inventory Dictionary.m in Sources */,
 				68F2E83F1A2E5F7400D02114 /* ViewController.m in Sources */,
 				68F2E8361A2E5F7400D02114 /* main.m in Sources */,
 			);
