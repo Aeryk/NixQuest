@@ -13,7 +13,7 @@
 //defines the method shootPistol which subtracts a bullet from the inventory
 
 -(void) shootPistol {
-    if (self.playerBullets >0) {
+    if (self.playerBullets > 0) {
         self.playerBullets -- ;
         
     }
@@ -30,7 +30,7 @@
     return self;
 }
 
--(NSInteger) displayNumberOfBullets{
+-(double) displayNumberOfBullets{
     return self.playerBullets;
 }
 

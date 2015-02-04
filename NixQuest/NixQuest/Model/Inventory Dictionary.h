@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Inventory_Dictionary : NSObject
+@property (strong, nonatomic) NSString *chosenItems;
+
+
+
 
 @end

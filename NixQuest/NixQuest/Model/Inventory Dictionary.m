@@ -10,4 +10,7 @@
 
 @implementation Inventory_Dictionary
 
+NSDictionary *dictionary ["dagger": 1];
+
+
 @end

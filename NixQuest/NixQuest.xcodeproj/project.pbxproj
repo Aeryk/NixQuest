@@ -16,9 +16,9 @@
 		68F2E8441A2E5F7400D02114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F2E8431A2E5F7400D02114 /* Images.xcassets */; };
 		68F2E8471A2E5F7400D02114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F2E8451A2E5F7400D02114 /* LaunchScreen.xib */; };
 		68F2E8531A2E5F7400D02114 /* NixQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F2E8521A2E5F7400D02114 /* NixQuestTests.m */; };
+		FA46CF5A1A820CDC00F66C68 /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = FA46CF591A820CDC00F66C68 /* Inventory.m */; };
 		FA6E8CD51A4CAC2B00CBA698 /* Pistol.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6E8CD41A4CAC2B00CBA698 /* Pistol.m */; };
 		FADECCA71A4948A000794235 /* inventoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FADECCA61A4948A000794235 /* inventoryManager.m */; };
-		FAFAF9F71A4CC16B00F9B2F5 /* Inventory Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFAF9F61A4CC16B00F9B2F5 /* Inventory Dictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +48,12 @@
 		68F2E84C1A2E5F7400D02114 /* NixQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NixQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F2E8511A2E5F7400D02114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68F2E8521A2E5F7400D02114 /* NixQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NixQuestTests.m; sourceTree = "<group>"; };
+		FA46CF581A820CDC00F66C68 /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Inventory.h; path = ../Inventory.h; sourceTree = "<group>"; };
+		FA46CF591A820CDC00F66C68 /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Inventory.m; path = ../Inventory.m; sourceTree = "<group>"; };
 		FA6E8CD31A4CAC2B00CBA698 /* Pistol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pistol.h; path = Model/Pistol.h; sourceTree = "<group>"; };
 		FA6E8CD41A4CAC2B00CBA698 /* Pistol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pistol.m; path = Model/Pistol.m; sourceTree = "<group>"; };
 		FADECCA51A4948A000794235 /* inventoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inventoryManager.h; path = Model/inventoryManager.h; sourceTree = "<group>"; };
 		FADECCA61A4948A000794235 /* inventoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inventoryManager.m; path = Model/inventoryManager.m; sourceTree = "<group>"; };
-		FAFAF9F51A4CC16B00F9B2F5 /* Inventory Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Inventory Dictionary.h"; path = "Model/Inventory Dictionary.h"; sourceTree = "<group>"; };
-		FAFAF9F61A4CC16B00F9B2F5 /* Inventory Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Inventory Dictionary.m"; path = "Model/Inventory Dictionary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,14 +77,15 @@
 		68C4D9C31A2E6F3900F206E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				68F2E8351A2E5F7400D02114 /* main.m */,
 				68C4D9C01A2E6F3200F206E1 /* NixQuestGame.h */,
 				68C4D9C11A2E6F3200F206E1 /* NixQuestGame.m */,
 				FADECCA51A4948A000794235 /* inventoryManager.h */,
 				FADECCA61A4948A000794235 /* inventoryManager.m */,
 				FA6E8CD31A4CAC2B00CBA698 /* Pistol.h */,
 				FA6E8CD41A4CAC2B00CBA698 /* Pistol.m */,
-				FAFAF9F51A4CC16B00F9B2F5 /* Inventory Dictionary.h */,
-				FAFAF9F61A4CC16B00F9B2F5 /* Inventory Dictionary.m */,
+				FA46CF581A820CDC00F66C68 /* Inventory.h */,
+				FA46CF591A820CDC00F66C68 /* Inventory.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -128,7 +129,6 @@
 				68F2E8371A2E5F7400D02114 /* AppDelegate.h */,
 				68F2E8381A2E5F7400D02114 /* AppDelegate.m */,
 				68F2E8341A2E5F7400D02114 /* Info.plist */,
-				68F2E8351A2E5F7400D02114 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -254,8 +254,8 @@
 				FA6E8CD51A4CAC2B00CBA698 /* Pistol.m in Sources */,
 				68F2E83C1A2E5F7400D02114 /* NixQuest.xcdatamodeld in Sources */,
 				68C4D9C21A2E6F3200F206E1 /* NixQuestGame.m in Sources */,
+				FA46CF5A1A820CDC00F66C68 /* Inventory.m in Sources */,
 				68F2E8391A2E5F7400D02114 /* AppDelegate.m in Sources */,
-				FAFAF9F71A4CC16B00F9B2F5 /* Inventory Dictionary.m in Sources */,
 				68F2E83F1A2E5F7400D02114 /* ViewController.m in Sources */,
 				68F2E8361A2E5F7400D02114 /* main.m in Sources */,
 			);

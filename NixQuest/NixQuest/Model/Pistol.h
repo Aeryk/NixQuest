@@ -12,6 +12,8 @@
 @property (nonatomic) NSInteger playerBullets;
 
 -(void) shootPistol;
+-(instancetype) init;
+-(double) displayNumberOfBullets;
 
 
 @end
